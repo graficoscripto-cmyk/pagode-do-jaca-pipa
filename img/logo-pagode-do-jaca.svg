@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <radialGradient id="sunGlow" cx="50%" cy="42%" r="55%">
+      <stop offset="0%" stop-color="#FFE066"/>
+      <stop offset="55%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#D94E1F"/>
+    </radialGradient>
+    <linearGradient id="lagoon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0C2233"/>
+      <stop offset="100%" stop-color="#071521"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer badge -->
+  <circle cx="60" cy="60" r="58" fill="url(#lagoon)" stroke="#F59E0B" stroke-width="3"/>
+  <!-- Pandeiro / Sunburst hybrid -->
+  <circle cx="60" cy="54" r="34" fill="url(#sunGlow)"/>
+  <!-- Sun rays inside pandeiro -->
+  <path d="M60 22v10M37 31l7 7M83 31l-7 7M28 52h10M92 52H82" stroke="#FFFBEB" stroke-width="2.6" stroke-linecap="round" opacity="0.85"/>
+  <!-- Pandeiro platinelas (jingles) around the rim -->
+  <g fill="#B6FF2E" stroke="#071521" stroke-width="1.6">
+    <rect x="55" y="16" width="10" height="4.5" rx="2.2"/>
+    <rect x="26" y="29" width="10" height="4.5" rx="2.2" transform="rotate(-42 31 31.2)"/>
+    <rect x="84" y="29" width="10" height="4.5" rx="2.2" transform="rotate(42 89 31.2)"/>
+    <rect x="19" y="53" width="10" height="4.5" rx="2.2" transform="rotate(-82 24 55.2)"/>
+    <rect x="91" y="53" width="10" height="4.5" rx="2.2" transform="rotate(82 96 55.2)"/>
+  </g>
+  <!-- Catamaran silhouette on the sunset -->
+  <path d="M35 61h50l-5 8H40l-5-8Z" fill="#071521"/>
+  <path d="M43 53h34l3 8H40l3-8Z" fill="#0C2233" stroke="#FFE066" stroke-width="1.4"/>
+  <!-- Waves of Lagoa de Guaraíras -->
+  <path d="M18 76c9-5 19-5 28 0s19 5 28 0 19-5 28 0" stroke="#19B394" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M26 85c8-4 17-4 25 0s17 4 25 0 17-4 18 0" stroke="#B6FF2E" stroke-width="2.6" stroke-linecap="round"/>
+  <!-- Brand typography -->
+  <text x="60" y="102" text-anchor="middle" fill="#FFFBEB" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="13.5" letter-spacing="1.5">JACA</text>
+</svg>
